@@ -4,6 +4,8 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: nodejs18.x
+  environment:
+    LOCALSTACK_HOST: ${env:LOCALSTACK_HOST, "localhost"}
 plugins:
   - serverless-offline
 functions:

@@ -13,7 +13,7 @@ if (isLocal) {
       secretAccessKey: 'test',
     },
   })
-  const host = 'localhost'
+  const host = process.env.LOCALSTACK_HOST || 'localhost'
   s3config.endpoint = new AWS.Endpoint(`http://${host}:4566`)
 }
 

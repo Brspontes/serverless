@@ -1,14 +1,7 @@
-2023-03-05T23:32:54.446  WARN --- [-functhread5] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
-2023-03-05T23:32:54.446  WARN --- [-functhread5] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
-2023-03-05T23:32:54.454  INFO --- [-functhread5] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
-2023-03-05T23:32:54.454  INFO --- [-functhread5] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
-2023-03-05T23:32:54.519  INFO --- [  MainThread] localstack.utils.bootstrap : Execution of "start_runtime_components" took 2197.44ms
-2023-03-05T23:36:59.962  WARN --- [   asgi_gw_0] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
-2023-03-05T23:36:59.985  INFO --- [functhread33] l.services.motoserver      : starting moto server on http://0.0.0.0:34721
-2023-03-05T23:36:59.987  INFO --- [   asgi_gw_0] localstack.services.infra  : Starting mock S3 service on http port 4566 ...
-2023-03-05T23:37:00.464  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS s3.CreateBucket => 200
-2023-03-05T23:37:41.303  WARN --- [   asgi_gw_0] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
-2023-03-05T23:37:41.314  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS s3.ListBuckets => 200
-2023-03-06T00:00:26.938  WARN --- [   asgi_gw_0] localstack.aws.accounts    : Ignoring production AWS credentials provided to LocalStack. Falling back to default account ID.
-2023-03-06T00:00:26.968  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS s3.ListBuckets => 200
-2023-03-06T00:01:03.436  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS s3.ListBuckets => 200
+2023-03-07T22:37:33.697  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2023-03-07T22:37:33.697  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2023-03-07T22:37:33.710  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2023-03-07T22:37:33.710  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2023-03-07T22:38:04.173  INFO --- [functhread13] l.services.motoserver      : starting moto server on http://0.0.0.0:42993
+2023-03-07T22:38:04.175  INFO --- [   asgi_gw_0] localstack.services.infra  : Starting mock S3 service on http port 4566 ...
+2023-03-07T22:38:04.531  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS s3.ListBuckets => 200
